@@ -81,3 +81,34 @@ footer button:hover {
     border: 1px solid #fff;
 }
 
+@media screen and (max-width: 425px) {
+    header .title h1 {
+        font-size: 6vw;
+        top: 5rem;
+    }
+
+    main .perfis {
+        flex-wrap: wrap;
+        margin-top: 6rem;
+    }
+
+    main .perfis .perfis-icon {
+        width: 45%;
+        margin: 1rem auto;
+    }
+
+    main .perfis .perfis-icon img {
+        width: 100%;
+        height: auto;
+    }
+
+    main .perfis .perfis-icon p {
+        font-size: 3vw;
+    }
+
+    footer button {
+        margin: 1em auto;
+        margin-left: auto;
+    }
+}
+
