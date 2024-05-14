@@ -30,17 +30,28 @@ main .perfis {
     gap: 20px;
 }
 
+main .perfis .perfis-icon {
+    transition-duration: .4s;
+}
+
+main .perfis .perfis-icon:hover {
+    transform: scale(1.1);
+}
+
 main .perfis .perfis-icon img {
     border: .3em solid transparent;
     border-radius: 4px;
     width: 11rem;
     height: 10rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     cursor: pointer;
     border-radius: 10px;
 }
 
 main .perfis .perfis-icon p {
-    color: #e5e5e5;
+    color: gray;
     text-align: center;
     display: block;
     font-size: 1.3vw;
@@ -62,6 +73,7 @@ footer button {
     margin: 2em 0 1em;
     padding: .5em 1.5em;
     margin-left: 36rem;
+    transition-duration: .4s;
 }
 
 footer button:hover {
