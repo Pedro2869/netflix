@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+}
+
+header .title h1 {
+    text-align: center;
+    color: #fff;
+}
+
+main .perfis .perfis-icon img {
+    border: .3em solid transparent;
+    border-radius: 4px;
+    width: 10rem;
+    height: 10rem;
+}
+
