@@ -147,7 +147,6 @@ footer button:hover {
 
     main .perfis .perfis-icon {
         width: 45%; /* Largura dos ícones ajustada para ocupar metade da tela */
-        margin: 3rem auto; /* Margem ajustada */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -168,3 +167,4 @@ footer button:hover {
         margin-left: auto; /* Reiniciar margem esquerda */
     }
 }
+
