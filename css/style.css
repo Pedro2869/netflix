@@ -83,7 +83,25 @@ footer button:hover {
 }
 
 @media screen and (max-width: 320px) {
-  
+
+  header div.title h1 {
+    font-size: 1rem;
+    padding: 4px;
+  }
+
+  main div.perfis  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main div.perfis div.perfis-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -129,7 +147,11 @@ footer button:hover {
 
     main .perfis .perfis-icon {
         width: 45%; /* Largura dos ícones ajustada para ocupar metade da tela */
-        margin: 1rem auto; /* Margem ajustada */
+        margin: 3rem auto; /* Margem ajustada */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     main .perfis .perfis-icon img {
